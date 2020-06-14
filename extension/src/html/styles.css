@@ -1,0 +1,30 @@
+body {    
+    margin: 0;
+    padding: 0;
+}
+
+.static_elements{
+    display:flexbox;
+    flex-direction: column;
+    padding-left: 25pt;
+    padding-top: 25pt;
+    
+}
+
+.right_element{
+    float: right;
+    margin-left: 25pt;
+}
+
+.title{
+    padding-left: 25pt;
+    padding-right: 25pt;
+    font-size: medium;
+}
+.summary{
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 25pt;
+    padding-right: 25pt;
+    font-size: 13px;
+}
